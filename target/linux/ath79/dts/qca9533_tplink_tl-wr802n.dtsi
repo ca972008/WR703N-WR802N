@@ -67,13 +67,13 @@
 
 			partition@20000 {
 				label = "firmware";
-				reg = <0x020000 0x3d0000>;
+				reg = <0x020000 0xfd0000>;
 				compatible = "tplink,firmware";
 			};
 
 			partition@3f0000 {
 				label = "art";
-				reg = <0x3f0000 0x010000>;
+				reg = <0xff0000 0x010000>;
 				read-only;
 
 				nvmem-layout {
